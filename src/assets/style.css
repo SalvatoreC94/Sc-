@@ -1,0 +1,43 @@
+/* Modalità chiara */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modalità scura */
+body.dark-mode {
+    background-color: #0d0d0d;
+    /* Sfondo più scuro */
+    color: #e6e6e6;
+    /* Colore del testo più chiaro */
+}
+
+/* Titoli e testo in modalità scura */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #ffffff;
+    /* Colore dei titoli più luminoso per contrasto */
+}
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode a {
+    color: #d1d1d1;
+    /* Colore del testo principale più chiaro */
+}
+
+/* Stile per link in modalità scura */
+body.dark-mode a {
+    color: #b3b3b3;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode a:hover {
+    color: #FFD700;
+    /* Colore dorato per i link al passaggio del mouse */
+}
