@@ -1,0 +1,9 @@
+/* Salvatore Planner — visual refinement */
+header{padding:18px 14px 16px!important;margin:0 -4px 8px;background:rgba(20,23,29,.82)!important;border:1px solid rgba(255,255,255,.07);border-radius:24px;box-shadow:0 18px 45px rgba(0,0,0,.22);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+h1{font-size:28px!important;letter-spacing:-.9px!important}.sub{font-size:13px!important;margin-top:4px!important}
+.stats{margin:20px 0 14px!important;padding-top:15px;border-top:1px solid rgba(255,255,255,.06);gap:0!important;justify-content:space-between}.stat{flex:1}.stat:not(:last-child){border-right:1px solid rgba(255,255,255,.06);padding-right:10px}.stat:not(:first-child){padding-left:14px}.stat b{font-size:17px!important}.stat span{display:block;margin:3px 0 0!important;font-size:11px!important;color:#777f8d!important}
+.progress{margin:0 0 14px!important;height:4px!important}
+.tabs{padding:4px 0 2px!important;gap:6px!important}.tabs button{padding:8px 12px!important;font-size:12px!important}
+.day{margin-top:27px!important;font-size:14px!important}.date{font-size:10px!important}
+.card{border-radius:15px!important;padding:12px 12px 12px 14px!important}.title{font-size:15.5px!important}.desc{font-size:12px!important}
+@media(max-width:380px){header{padding:16px 12px 14px!important}.stats{gap:0!important}.stat b{font-size:16px!important}.stat span{font-size:10px!important}.tabs button{padding:7px 10px!important}}
